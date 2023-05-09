@@ -11,25 +11,97 @@
 </head>
 <body>
   <nav>
-    <div class="container mx-auto flex justify-between px-9">
+    <div class="container mx-auto flex justify-between px-9 pt-9">
         <div class="flex items-center justify-center">
             <img src="./images/logo.svg" alt="logo">
-            <h1>Going <br> Green</h1>
+            <h1 class="text-[#57AE09] font-poppins font-semibold text-lg">Going <br> Green</h1>
         </div>
 
-        <div class="flex">
-            <div class="bg-[#4DC66F] w-32 h-12">
+        <div class="hidden lg:flex">
+            <div class="bg-[#4DC66F] w-32 h-12 rounded-xl flex justify-center items-center">
                 <a href="#" class="text-white font-poppins font-semibold">Register</a>
             </div>
 
-            <div>
-                <a href="#">Sign In</a>
+            <div class="w-32 h-12 border-solid border-2 border-[#4DC66F] rounded-xl flex justify-center items-center">
+                <a href="#" class="text-black font-poppins font-semibold">Sign In</a>
             </div>
         </div>
-        <div>
+        <div class="lg:hidden">
             <img src="./images/hamburger-icon.svg" alt="hamburger-icon">
         </div>
     </div>
   </nav>
+
+  <section>
+    <div class="container mx-auto flex justify-between px-9 pt-11 pb-14">
+        <div>
+            <h1 class="text-black font-poppins font-bold text-3xl">Lets Make The <br> World <br>A Better Place</h1>
+            <p class="text-black font-poppins font-normal text-lg leading-7 pt-2 w-80r">Have you ever wondered how you can make the world a better place? Here’s a reminder that YOU matter and that it’s the small things that count.</p>
+        </div>
+        <div class="hidden lg:block">
+            <img src="./images/cover.png" alt="cover">
+        </div>
+    </div>
+  </section>
+
+  <section class="pt-12 lg:pt-14">
+    <div class="container mx-auto flex justify-between flex-col px-9 pb-8 bg-[#85D99C] rounded-t-half lg:flex-row">
+            <div class="bg-white mt-4 flex items-center justify-center flex-col rounded-doublexl">
+                <img src="./images/recycle.png" alt="recycle" class="py-5">
+                <h1 class="text-black text-3xl font-poppins font-semibold">Recycle</h1>
+                <p class="text-black font-poppins text-base font-medium pb-5">When you put <br> the whole<br>
+                    picture<br> together,<br> recycling<br>
+                    is the right<br> thing to do</p>
+            </div>
+            <div class="bg-white mt-3 flex items-center justify-center flex-col rounded-doublexl">
+                <img src="./images/car.png" alt="car" class="pt-5">
+                <h1 class="text-black text-3xl font-poppins font-semibold">Friendly Cars</h1>
+                <p class="text-black font-poppins text-base font-medium pb-5">The time is<br> right for<br> electric cars.<br> Electric cars<br> are the future.</p>
+            </div>
+            <div class="bg-white mt-3 flex items-center justify-center flex-col rounded-doublexl">
+                <img src="./images/earth.png" alt="earth" class="pt-11">
+                <h1 class="text-black text-3xl font-poppins font-semibold">Recycle</h1>
+                <p class="text-black font-poppins text-base font-medium pb-11">Everybody<br> wants a better<br> world to live<br> in. Let’s make<br> it happen.</p>
+            </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container mx-auto flex justify-between flex-col px-9 pt-5 lg:flex-row">
+        <div class="flex items-center">
+            <img src="./images/logo.svg" alt="logo">
+            <h1 class="text-[#57AE09] font-poppins font-semibold text-lg">Going <br> Green</h1>
+        </div>
+
+        <div class="py-14">
+            <ul class="text-black text-xl font-poppins font-normal">
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Sed Feedback</a>
+                </li>
+                <li>
+                    <a href="#">Dummy Link</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Help</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="flex flex-row justify-center items-center gap-x-2.5">
+            <img src="./images/facebook.svg" alt="facebook">
+            <img src="./images/instagram.svg" alt="instagram">
+            <img src="./images/twitter.svg" alt="twitter">
+        </div>
+    </div>
+  </footer>
+  <h2 class="pt-14 text-center">©2021    Dummy Terms Privacy</h2>
+
 </body>
 </html>
